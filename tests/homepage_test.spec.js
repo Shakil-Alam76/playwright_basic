@@ -8,7 +8,7 @@ test ('Home Page', async({page})=>{
 
     await expect(page).toHaveTitle("STORE");
 
-    //another line for git practice in staging for conflicting
+   
 
     const pageUrl=await page.url();
     console.log("Page url: ", pageUrl);
@@ -16,9 +16,13 @@ test ('Home Page', async({page})=>{
     await expect(page).toHaveURL("https://www.demoblaze.com/");
 
 <<<<<<< HEAD
-    //added this line for git conflict
+<<<<<<< HEAD
+
 =======
-    //added this line for conflicting practice
+
+>>>>>>> staging
+=======
+
 >>>>>>> staging
 
     await page.close();
