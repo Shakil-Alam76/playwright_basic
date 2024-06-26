@@ -8,7 +8,7 @@ test ('Home Page', async({page})=>{
 
     await expect(page).toHaveTitle("STORE");
 
-   
+   // git fetching
 
     const pageUrl=await page.url();
     console.log("Page url: ", pageUrl);
