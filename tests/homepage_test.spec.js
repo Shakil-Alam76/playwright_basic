@@ -15,15 +15,7 @@ test ('Home Page', async({page})=>{
 
     await expect(page).toHaveURL("https://www.demoblaze.com/");
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 
-=======
-
->>>>>>> staging
-=======
-
->>>>>>> staging
 
     await page.close();
 
