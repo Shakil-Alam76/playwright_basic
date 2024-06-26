@@ -15,7 +15,7 @@ test ('Home Page', async({page})=>{
 
     await expect(page).toHaveURL("https://www.demoblaze.com/");
 
-    //added this line for git practice
+    //added this line for git conflict
 
     await page.close();
 
