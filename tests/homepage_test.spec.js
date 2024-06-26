@@ -13,6 +13,11 @@ test ('Home Page', async({page})=>{
 
     await expect(page).toHaveURL("https://www.demoblaze.com/");
 
+    //added this line for git practice
+
     await page.close();
+
+
+
 
 })
