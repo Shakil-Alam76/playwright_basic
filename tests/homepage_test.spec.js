@@ -1,0 +1,13 @@
+import {test, expect} from '@playwright/test';
+
+test ('Home Page', async({page})=>{
+    await page.goto("https://www.demoblaze.com/");
+
+    const pageTitle=await page.title();
+    console.log("Page Title: ", pageTitle);
+
+    await expect(page).toHaveTitle("STORE");
+
+    await page.close();
+
+})
